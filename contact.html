@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Contact | Lana Shree</title>
+
+<meta name="description"
+content="Contact Lana Shree through the accessible contact form.">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>Contact Me</h1>
+
+    <nav aria-label="Main Navigation">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+        <button id="theme-toggle">
+    🌙 Dark Mode
+</button>
+    </nav>
+</header>
+
+<main>
+<section aria-labelledby="contact-heading">
+
+<h2 id="contact-heading">Let's Connect</h2>
+
+<div class="contact-container">
+
+    <div class="contact-info">
+
+        <h3>Contact Information</h3>
+
+        <p>📧 Email: lanashree@gmail.com</p>
+
+        <p>💻 Role: Java & Web Developer</p>
+
+        <p>📍 Salem, Tamil Nadu</p>
+
+        <p>
+            Feel free to contact me regarding projects,
+            internships, collaborations, or technical discussions.
+        </p>
+
+    </div>
+
+    <div class="contact-form">
+
+        <form action="#" method="post" aria-label="Contact Form">
+
+            <div>
+                <label for="name">Full Name</label>
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    required
+                    aria-required="true">
+            </div>
+
+            <div>
+                <label for="email">Email Address</label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    required
+                    aria-required="true">
+            </div>
+
+            <div>
+                <label for="message">Message</label>
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="5"
+                    required
+                    aria-required="true"></textarea>
+            </div>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+</section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Lana Shree</p>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
