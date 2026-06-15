@@ -75,6 +75,9 @@ Through this project, I gained practical experience in:
 - Add dark mode support
 - Improve animations and UI design
 
+## Live url
+https://lanashree07.github.io/Accessible-portfolio-website/
+
 ## Author
 **Lana Shree**
 Aspiring Java Developer | Web Developer | Data Analytics Enthusiast
